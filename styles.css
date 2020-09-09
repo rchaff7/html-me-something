@@ -3,23 +3,24 @@
 body {
     background-color: #181a1b;
     color: #a5bbcd;
-    margin: 50px 20%;
-}
-
-div {
-
+    margin: 60px 20%;
+    text-align: center;
 }
 
 header {
-    text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
 
+#subtext {
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
 }
 
 img {
     max-width: 100%;
     height: auto;
-  }
+}
 
 .left{
     grid-area: left;
@@ -30,20 +31,14 @@ img {
 }
 
 .grid {
-      display: grid;
-      grid-template-areas: 'left right';
-      border-style: solid;
-      border-width: 1px;
-      margin-bottom: 20px;
-      text-align: center;
-  }
+    display: grid;
+    grid-template-areas: 'left right';
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
 
-  p {
-      padding-right: 20px;
-      padding-left: 20px;
-  }
-
-
-  #WIP {
-    color: red
+p {
+    padding-right: 30px;
+    padding-left: 30px;
 }
